@@ -49,3 +49,52 @@ h2{font-size:clamp(44px,6vw,78px);letter-spacing:-.06em;line-height:.96;margin:0
 @media(max-width:900px){.nav nav{display:none}.hero{padding-top:90px}.hero-metrics{grid-template-columns:repeat(2,1fr)}.metric{border-bottom:1px solid var(--line)}.metric:nth-child(odd){border-left:0}.metric.primary-metric{grid-column:span 2}.section-heading{display:block}.section-heading p{margin-top:-30px;margin-bottom:40px}.about-grid{grid-template-columns:1fr;gap:50px}.focus-grid,.achievement-grid{grid-template-columns:1fr}.project-grid{grid-template-columns:1fr}.project.featured{grid-column:auto}.education-grid{grid-template-columns:1fr}.timeline-item{grid-template-columns:120px 20px 1fr}.method{grid-template-columns:1fr 1fr}}
 @media(max-width:560px){.nav{padding:0 6vw}.resume{font-size:9px}.hero{min-height:auto;padding:90px 6vw 90px}.hero-copy{font-size:16px}.hero-actions{flex-wrap:wrap}.hero-metrics{margin-top:55px}.metric{padding:18px 14px}.metric strong{font-size:23px}.primary-metric strong{font-size:34px}.section{padding:85px 6vw}h2{margin-bottom:48px}.about-lead>p:first-child{font-size:23px}.stack-row{grid-template-columns:1fr;gap:8px}.project,.focus-card{padding:28px}.project h3{font-size:25px}.project-footer{align-items:flex-start;flex-direction:column}.github-banner{align-items:flex-start;flex-direction:column}.timeline-item{grid-template-columns:1fr;gap:8px}.timeline-marker{display:none}.method{grid-template-columns:1fr}.contact{padding:100px 6vw 60px}.contact-links{flex-direction:column}.contact-links a{width:100%}}
 @media(prefers-reduced-motion:reduce){*,*::before,*::after{scroll-behavior:auto!important;animation:none!important;transition:none!important}.reveal{opacity:1;transform:none}.cursor-glow{display:none}}
+/* =========================================
+   MIDNIGHT + CYAN + VIOLET PALETTE
+   AI / ML = VIOLET
+   BACKEND / ENGINEERING = CYAN
+   ========================================= */
+
+.focus-card:nth-child(2) .focus-icon,
+.focus-card:nth-child(2) .number{
+  color:var(--violet-bright);
+}
+
+.focus-card:nth-child(2) .tags span{
+  border-color:#8b5cf633;
+  color:#c084fc;
+}
+
+.focus-card:nth-child(2):hover{
+  box-shadow:inset 0 2px 0 var(--violet);
+}
+
+.project:nth-child(2) .project-top{
+  color:var(--violet-bright);
+}
+
+.project:nth-child(2) .project-footer a{
+  color:var(--violet-bright);
+}
+
+.project:nth-child(2) .tags span{
+  border-color:#8b5cf633;
+}
+
+.achievement:nth-child(2) strong{
+  color:var(--violet-bright);
+}
+
+.hero-orbit.orbit-two{
+  border-color:#8b5cf61c;
+}
+
+.contact-glow{
+  background:
+    radial-gradient(
+      circle,
+      #8b5cf62b 0%,
+      #22d3ee14 38%,
+      transparent 70%
+    );
+}
