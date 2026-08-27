@@ -1,5 +1,18 @@
 *{box-sizing:border-box}
-:root{--bg:#090d12;--panel:#0d1319;--line:#26323c;--text:#eef3f6;--muted:#7f8c97;--soft:#aab5be;--cyan:#32d3ee;--green:#4ade80}
+:root{
+  --bg:#080c12;
+  --panel:#0d131b;
+  --line:#24313c;
+  --text:#f4f7fa;
+  --muted:#82909c;
+  --soft:#aab5be;
+
+  --cyan:#22d3ee;
+  --violet:#8b5cf6;
+  --violet-bright:#c084fc;
+
+  --green:#4ade80;
+}
 html{scroll-behavior:smooth}
 body{margin:0;background:var(--bg);color:#dce3ea;font-family:Inter,system-ui,sans-serif;line-height:1.65;overflow-x:hidden}
 a{color:inherit}
